@@ -1,0 +1,2 @@
+﻿date,reservoir,full_depth_ft,full_capacity_Mcft,current_level_ft,current_storage_Mcft,current_inflow_cusecs,current_outflow_cusecs,source,source_url
+2026-07-06,Mettur,120,93470,77.71,39717,98,3003,Tamil Nadu Government Agrisnet reservoir dashboard,https://www.tnagrisnet.tn.gov.in/ARS/acrs_apc_dashboard/reservoirs/

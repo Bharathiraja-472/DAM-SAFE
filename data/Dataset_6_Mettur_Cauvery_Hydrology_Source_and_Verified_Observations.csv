@@ -1,0 +1,24 @@
+﻿# DATASET 6 STATUS: SOURCE VERIFIED; FULL RAW TIME-SERIES EXTRACTION PENDING
+# No synthetic/fabricated discharge or river-level values are included.
+# Official NWDP raw CSV endpoints returned an unsupported-content-type response to automated retrieval.
+# SOURCE REGISTRY
+dataset,study_area,parameter,agency,frequency,coverage,resource,official_source,source_url,status
+Dataset 6 - River discharge + river water level,Mettur Dam / Cauvery River / downstream Tamil Nadu,River discharge,Tamil Nadu Surface Water Groundwater Department,Daily,2001-2025,River Discharge Tamil_Nadu_SW_GW Tamil Nadu (2001-2025) Manual Daily,National Water Data Portal (NWDP/NWIC),https://nwdp.nwic.gov.in/en/dataset/river-discharge-manual-dailly-tamil-nadu-surface-water-groundwater-department,Official source verified; raw CSV download endpoint currently blocks automated extraction
+Dataset 6 - River discharge + river water level,Mettur Dam / Cauvery River / downstream Tamil Nadu,River discharge,Tamil Nadu Surface Water Groundwater Department,Daily,2026-2030,River Discharge Tamil_Nadu_SW_GW Tamil Nadu (2026-2030) Manual Daily,National Water Data Portal (NWDP/NWIC),https://nwdp.nwic.gov.in/en/dataset/river-discharge-manual-dailly-tamil-nadu-surface-water-groundwater-department,Official source verified; raw CSV download endpoint currently blocks automated extraction
+Dataset 6 - River discharge + river water level,Mettur Dam / Cauvery River / downstream Tamil Nadu,River water level,Central Water Commission,Hourly telemetry,1961-1990,River Water Level Telemetry Hourly CWC Cauvery (1961-1990),National Water Data Portal (NWDP/NWIC),https://nwdp.nwic.gov.in/hi/dataset/river-water-level-telemetry-hourly-central-water-commission-cwc,Official source verified; raw CSV download endpoint currently blocks automated extraction
+Dataset 6 - River discharge + river water level,Mettur Dam / Cauvery River / downstream Tamil Nadu,River water level,Central Water Commission,Hourly telemetry,1991-2020,River Water Level Telemetry Hourly CWC Cauvery (1991-2020),National Water Data Portal (NWDP/NWIC),https://nwdp.nwic.gov.in/hi/dataset/river-water-level-telemetry-hourly-central-water-commission-cwc,Official source verified; raw CSV download endpoint currently blocks automated extraction
+Dataset 6 - River discharge + river water level,Mettur Dam / Cauvery River / downstream Tamil Nadu,River water level,Central Water Commission,Hourly telemetry,2021-2025,River Water Level CWC Cauvery (2021-2025) Telemetry Hourly,National Water Data Portal (NWDP/NWIC),https://nwdp.nwic.gov.in/hi/dataset/river-water-level-telemetry-hourly-central-water-commission-cwc,Official source verified; raw CSV download endpoint currently blocks automated extraction
+Dataset 6 - River discharge + river water level,Mettur Dam / Cauvery River / downstream Tamil Nadu,River water level,Central Water Commission,Hourly telemetry,2026-2030,River Water Level CWC Cauvery (2026-2030) Telemetry Hourly,National Water Data Portal (NWDP/NWIC),https://nwdp.nwic.gov.in/hi/dataset/river-water-level-telemetry-hourly-central-water-commission-cwc,Official source verified; raw CSV download endpoint currently blocks automated extraction
+Dataset 6 - River discharge + river water level,Mettur Reservoir (supporting hydrology),Reservoir inflow / outflow / level / storage,Tamil Nadu Department of Agriculture / Water Resources,Daily current reservoir bulletin,2026 observations available on portal,Storage and Flow Data on Major Reservoirs - METTUR,Tamil Nadu Agrisnet,https://www.tnagrisnet.tn.gov.in/home/reservoir/,Official supporting source; not a substitute for the full river-gauge time series
+
+# VERIFIED OBSERVATIONS ACCESSIBLE FROM OFFICIAL TAMIL NADU AGRISNET PAGES
+date,station,river_or_reservoir,parameter,value,unit,source
+2026-07-01,Mettur,Mettur Reservoir,reservoir_level_ft,79.12,ft,Tamil Nadu Agrisnet
+2026-07-01,Mettur,Mettur Reservoir,inflow_cusecs,1397.0,cusecs,Tamil Nadu Agrisnet
+2026-07-01,Mettur,Mettur Reservoir,outflow_cusecs,1003.0,cusecs,Tamil Nadu Agrisnet
+2026-07-03,Mettur,Mettur Reservoir,reservoir_level_ft,42.7,ft,Tamil Nadu Agrisnet
+2026-07-03,Mettur,Mettur Reservoir,inflow_cusecs,49.0,cusecs,Tamil Nadu Agrisnet
+2026-07-03,Mettur,Mettur Reservoir,outflow_cusecs,500.0,cusecs,Tamil Nadu Agrisnet
+2026-07-06,Mettur,Mettur Reservoir,reservoir_level_ft,77.71,ft,Tamil Nadu Agrisnet
+2026-07-06,Mettur,Mettur Reservoir,inflow_cusecs,98.0,cusecs,Tamil Nadu Agrisnet
+2026-07-06,Mettur,Mettur Reservoir,outflow_cusecs,3003.0,cusecs,Tamil Nadu Agrisnet

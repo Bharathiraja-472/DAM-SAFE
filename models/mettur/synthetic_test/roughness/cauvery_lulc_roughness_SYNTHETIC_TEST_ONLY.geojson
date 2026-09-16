@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "meta": {
+    "data_status": "SYNTHETIC_TEST_ONLY",
+    "scientific_use": false,
+    "source_type": "GENERATED_FOR_SOFTWARE_TESTING",
+    "warning": "NOT A SCIENTIFIC FLOOD SIMULATION OR REAL OBSERVATION"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "lulc_class": "Waterway Channel",
+        "manning_n": 0.025,
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8,
+              11.75
+            ],
+            [
+              77.82,
+              11.75
+            ],
+            [
+              77.82,
+              11.8
+            ],
+            [
+              77.8,
+              11.8
+            ],
+            [
+              77.8,
+              11.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lulc_class": "Agricultural Floodplain",
+        "manning_n": 0.04,
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.82,
+              11.75
+            ],
+            [
+              77.88,
+              11.75
+            ],
+            [
+              77.88,
+              11.8
+            ],
+            [
+              77.82,
+              11.8
+            ],
+            [
+              77.82,
+              11.75
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

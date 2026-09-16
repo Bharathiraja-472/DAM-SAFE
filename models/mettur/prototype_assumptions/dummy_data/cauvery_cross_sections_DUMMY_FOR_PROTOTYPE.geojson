@@ -1,0 +1,155 @@
+{
+  "type": "FeatureCollection",
+  "meta": {
+    "data_status": "DUMMY_FOR_PROTOTYPE",
+    "scientific_use": false,
+    "source_type": "DUMMY_FOR_PROTOTYPE",
+    "warning": "PROTOTYPE ASSUMPTION ONLY \u2014 NOT MEASURED OBSERVATION"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "section_id": "PROTO_XS_01",
+        "chainage_km": 0,
+        "bank_width_m": 250.0,
+        "channel_depth_m": 8.0,
+        "bed_invert_m_msl": 142.0,
+        "data_status": "DUMMY_FOR_PROTOTYPE"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.7966,
+            11.8036
+          ],
+          [
+            77.8066,
+            11.7996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "section_id": "PROTO_XS_02",
+        "chainage_km": 10,
+        "bank_width_m": 250.0,
+        "channel_depth_m": 8.0,
+        "bed_invert_m_msl": 130.0,
+        "data_status": "DUMMY_FOR_PROTOTYPE"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.7816,
+            11.7236
+          ],
+          [
+            77.7916,
+            11.7196
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "section_id": "PROTO_XS_03",
+        "chainage_km": 20,
+        "bank_width_m": 250.0,
+        "channel_depth_m": 8.0,
+        "bed_invert_m_msl": 118.0,
+        "data_status": "DUMMY_FOR_PROTOTYPE"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.7666,
+            11.6436
+          ],
+          [
+            77.7766,
+            11.6396
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "section_id": "PROTO_XS_04",
+        "chainage_km": 30,
+        "bank_width_m": 250.0,
+        "channel_depth_m": 8.0,
+        "bed_invert_m_msl": 106.0,
+        "data_status": "DUMMY_FOR_PROTOTYPE"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.7516,
+            11.5636
+          ],
+          [
+            77.7616,
+            11.5596
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "section_id": "PROTO_XS_05",
+        "chainage_km": 40,
+        "bank_width_m": 250.0,
+        "channel_depth_m": 8.0,
+        "bed_invert_m_msl": 94.0,
+        "data_status": "DUMMY_FOR_PROTOTYPE"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.7366,
+            11.4836
+          ],
+          [
+            77.7466,
+            11.4796
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "section_id": "PROTO_XS_06",
+        "chainage_km": 50,
+        "bank_width_m": 250.0,
+        "channel_depth_m": 8.0,
+        "bed_invert_m_msl": 82.0,
+        "data_status": "DUMMY_FOR_PROTOTYPE"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.7216,
+            11.4036
+          ],
+          [
+            77.7316,
+            11.3996
+          ]
+        ]
+      }
+    }
+  ]
+}

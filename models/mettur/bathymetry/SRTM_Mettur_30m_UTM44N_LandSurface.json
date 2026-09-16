@@ -1,0 +1,24 @@
+{
+  "filename": "SRTM_Mettur_30m_UTM44N_LandSurface.tif",
+  "data_status": "DERIVED_FROM_REAL",
+  "classification": "Land-Surface Elevation ONLY (Underwater Channel Bathymetry Pending)",
+  "source_file": "d:/SIH2026/data/output_SRTMGL1.tif",
+  "source_crs": "EPSG:4326",
+  "target_crs": "EPSG:32644 (UTM Zone 44N)",
+  "vertical_datum": "EGM96 Orthometric MSL",
+  "units": "meters",
+  "resolution_m": 30.0,
+  "width_px": 2520,
+  "height_px": 2700,
+  "statistics_m": {
+    "min_elevation": 119.0,
+    "max_elevation": 1637.0,
+    "mean_elevation": 314.47
+  },
+  "utm_bounds": {
+    "easting_min_m": 605000.0,
+    "northing_min_m": 1238000.0,
+    "easting_max_m": 681000.0,
+    "northing_max_m": 1321000.0
+  }
+}

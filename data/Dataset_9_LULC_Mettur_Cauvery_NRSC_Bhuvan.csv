@@ -1,0 +1,20 @@
+﻿# DATASET 9 - LAND USE / LAND COVER (LULC) - METTUR / CAUVERY
+# Authoritative source: ISRO/NRSC Bhuvan.
+# The official Bhuvan Store lists LULC at 1:50,000 for 2005-06, 2011-12 and 2015-16, and 1:250,000 annual products through 2022-23.
+# No fabricated LULC pixels/classes or fake raster values are included.
+# Actual raster download/extraction must preserve the official spatial data and metadata.
+
+Dataset,Topic,Record_Type,Source_or_Layer,Format_or_Scale,AOI,Temporal_Scope,Purpose,Source_or_Reference
+Dataset 9,Land Use / Land Cover (LULC),Primary authoritative dataset,ISRO/NRSC Bhuvan,"LULC 1:50,000",Tamil Nadu / Mettur-Cauvery AOI,2015-16,"Preferred detailed national LULC layer for the project; 1:50,000 scale",https://bhuvan-app1.nrsc.gov.in/2dresources/bhuvanstore.php
+Dataset 9,Land Use / Land Cover (LULC),Historical comparison,ISRO/NRSC Bhuvan,"LULC 1:50,000",Tamil Nadu / Mettur-Cauvery AOI,2005-06,Useful for land-cover change comparison,https://bhuvan-app1.nrsc.gov.in/2dresources/bhuvanstore.php
+Dataset 9,Land Use / Land Cover (LULC),Historical comparison,ISRO/NRSC Bhuvan,"LULC 1:50,000",Tamil Nadu / Mettur-Cauvery AOI,2011-12,Useful for land-cover change comparison,https://bhuvan-app1.nrsc.gov.in/2dresources/bhuvanstore.php
+Dataset 9,Land Use / Land Cover (LULC),Current national comparison,ISRO/NRSC Bhuvan,"LULC 1:250,000",India / Tamil Nadu,2022-23,"Latest clearly documented annual 250K layer in Bhuvan Store; useful as a broad current reference, not a replacement for detailed 50K LULC",https://bhuvan-app1.nrsc.gov.in/2dresources/bhuvanstore.php
+Dataset 9,Land Use / Land Cover (LULC),Web service,ISRO/NRSC Bhuvan,WMS/WMTS,Mettur-Cauvery AOI,Available layers,Allows GIS visualization and extraction workflows where permitted by the service,https://bhuvan-vec2.nrsc.gov.in/bhuvan/wms
+Dataset 9,LULC classes,Classification,NRSC,Built-up / settlement,Mettur-Cauvery AOI,Selected LULC edition,Required for exposure and roughness/land-surface characterization,https://bhuvan-app1.nrsc.gov.in/2dresources/documents/4_Bhuvan_Data_Content_And_Map_Standards.pdf
+Dataset 9,LULC classes,Classification,NRSC,Agricultural land,Mettur-Cauvery AOI,Selected LULC edition,Required for exposure and land-surface characterization,https://bhuvan-app1.nrsc.gov.in/2dresources/documents/4_Bhuvan_Data_Content_And_Map_Standards.pdf
+Dataset 9,LULC classes,Classification,NRSC,Forest / vegetation,Mettur-Cauvery AOI,Selected LULC edition,Required for land-surface characterization,https://bhuvan-app1.nrsc.gov.in/2dresources/documents/4_Bhuvan_Data_Content_And_Map_Standards.pdf
+Dataset 9,LULC classes,Classification,NRSC,Water bodies,Mettur-Cauvery AOI,Selected LULC edition,Important for reservoir/river/floodplain mapping,https://bhuvan-app1.nrsc.gov.in/2dresources/documents/4_Bhuvan_Data_Content_And_Map_Standards.pdf
+Dataset 9,LULC classes,Classification,NRSC,Wasteland / barren / other classes,Mettur-Cauvery AOI,Selected LULC edition,Retain native NRSC classes rather than inventing a new classification,https://bhuvan-app1.nrsc.gov.in/2dresources/documents/4_Bhuvan_Data_Content_And_Map_Standards.pdf
+Dataset 9,Project processing,Clip,DAM-SAFE,GeoTIFF / GeoPackage,Mettur-Cauvery study boundary,After Dataset 4 is finalized,Clip the official LULC layer to the actual study area; do not use a guessed rectangle,Project Dataset 4
+Dataset 9,Project processing,Alignment,DAM-SAFE,Same CRS as DEM/model,Mettur-Cauvery study boundary,After download,Reproject only if required and preserve the original source raster,Project Dataset 1
+Dataset 9,Project output,Floodplain classes,DAM-SAFE,Raster + vector statistics,Mettur-Cauvery study boundary,Model-ready,"Intersect simulated flood extent/depth with LULC to estimate affected agricultural, built-up, vegetation and water areas",Project processing pipeline

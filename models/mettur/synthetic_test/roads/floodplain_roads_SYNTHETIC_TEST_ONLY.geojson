@@ -1,0 +1,40 @@
+{
+  "type": "FeatureCollection",
+  "meta": {
+    "data_status": "SYNTHETIC_TEST_ONLY",
+    "scientific_use": false,
+    "source_type": "GENERATED_FOR_SOFTWARE_TESTING",
+    "warning": "NOT A SCIENTIFIC FLOOD SIMULATION OR REAL OBSERVATION"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "road_name": "State Highway SH-20 (SYNTHETIC TEST)",
+        "type": "State Highway",
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.78,
+            11.8
+          ],
+          [
+            77.82,
+            11.75
+          ],
+          [
+            77.86,
+            11.7
+          ],
+          [
+            77.9,
+            11.65
+          ]
+        ]
+      }
+    }
+  ]
+}

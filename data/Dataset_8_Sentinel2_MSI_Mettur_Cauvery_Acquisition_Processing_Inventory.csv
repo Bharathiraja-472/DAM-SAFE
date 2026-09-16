@@ -1,0 +1,26 @@
+﻿# DATASET 8 - SENTINEL-2 MSI FOR METTUR / CAUVERY
+# Sentinel-2 is an image dataset, not a conventional tabular time series.
+# This file records verified products, bands, quality layers and project processing requirements.
+# No fabricated Sentinel-2 scene IDs, acquisition dates, reflectance values or land-cover pixels are included.
+
+Dataset,Topic,Record_Type,Product_or_Layer,Resolution_or_Format,AOI_or_Coverage,Temporal_Scope,Purpose,Source_or_Reference
+Dataset 8,Sentinel-2 MSI,Primary source,Copernicus Data Space Ecosystem,Sentinel-2 Level-2A,Mettur/Cauvery AOI,2015-06-23 to present,"Atmospherically corrected surface reflectance for land-cover, vegetation and water analysis",https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2
+Dataset 8,Sentinel-2 MSI,Recommended product,Sentinel-2 L2A,Surface Reflectance,Mettur/Cauvery AOI,2015-06-23 to present,Primary optical product for analysis; includes surface reflectance and scene classification,https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel2.html
+Dataset 8,Sentinel-2 MSI,Alternative product,Sentinel-2 L1C,Top-of-atmosphere reflectance,Mettur/Cauvery AOI,2015-06-23 to present,Use only when L2A is unavailable or when a specific L1C workflow is required,https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2
+Dataset 8,Sentinel-2 MSI,Band,B02 Blue,10 m,All selected scenes,Visible reflectance; water/land spectral analysis,https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/S2L2A.html,
+Dataset 8,Sentinel-2 MSI,Band,B03 Green,10 m,All selected scenes,Water/vegetation and spectral-index inputs,https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/S2L2A.html,
+Dataset 8,Sentinel-2 MSI,Band,B04 Red,10 m,All selected scenes,Vegetation/land-cover and index inputs,https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/S2L2A.html,
+Dataset 8,Sentinel-2 MSI,Band,B08 NIR,10 m,All selected scenes,Vegetation and water-related indices,https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/S2L2A.html,
+Dataset 8,Sentinel-2 MSI,Band,B05/B06/B07 Red Edge,20 m,Selected scenes,Vegetation characterization and land-cover discrimination,https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/S2L2A.html,
+Dataset 8,Sentinel-2 MSI,Band,B8A Narrow NIR,20 m,Selected scenes,Vegetation characterization,https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/S2L2A.html,
+Dataset 8,Sentinel-2 MSI,Band,B11 SWIR,20 m,All selected scenes,Water/soil/built-up discrimination and moisture-sensitive analysis,https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/S2L2A.html,
+Dataset 8,Sentinel-2 MSI,Band,B12 SWIR,20 m,All selected scenes,Water/soil/built-up discrimination and moisture-sensitive analysis,https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/S2L2A.html,
+Dataset 8,Sentinel-2 MSI,Quality layer,SCL Scene Classification,20 m,All L2A scenes,Cloud/shadow/snow/vegetation/water scene classification for masking,https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/S2L2A.html,
+Dataset 8,Sentinel-2 MSI,Quality layer,CLD Cloud probability,20 m,Where available,Cloud screening before optical analysis,https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/S2L2A.html,
+Dataset 8,Sentinel-2 MSI,Output,True-colour composite,10 m,Mettur/Cauvery AOI,B04+B03+B02 for visual land/water interpretation,Project processing pipeline,
+Dataset 8,Sentinel-2 MSI,Output,False-colour/NIR composite,10 m,Mettur/Cauvery AOI,B08+B04+B03 for vegetation/floodplain interpretation,Project processing pipeline,
+Dataset 8,Sentinel-2 MSI,Output,NDVI,10 m,Mettur/Cauvery AOI,Vegetation characterization; supporting LULC analysis,Project processing pipeline,
+Dataset 8,Sentinel-2 MSI,Output,NDWI/MNDWI,10/20 m,Mettur/Cauvery AOI,Water-surface identification and supporting flood validation where cloud-free,Project processing pipeline,
+Dataset 8,Sentinel-2 MSI,Temporal strategy,Pre-event baseline,L2A,Before selected flood events,Baseline land/water condition,Project processing pipeline,
+Dataset 8,Sentinel-2 MSI,Temporal strategy,Post-event observation,L2A,After selected flood events,Supporting observed flood/land-cover change; optical imagery is cloud-sensitive,Project processing pipeline,
+Dataset 8,Sentinel-2 MSI,Spatial alignment,Project CRS,GeoTIFF/GeoPackage,Same CRS as Dataset 1 DEM,"Prevent offsets between optical products, DEM, river and model outputs",Project Dataset 1,

@@ -1,0 +1,536 @@
+{
+  "type": "FeatureCollection",
+  "meta": {
+    "data_status": "SYNTHETIC_TEST_ONLY",
+    "scientific_use": false,
+    "source_type": "GENERATED_FOR_SOFTWARE_TESTING",
+    "warning": "NOT A SCIENTIFIC FLOOD SIMULATION OR REAL OBSERVATION"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLDG_TEST_001",
+        "structure": "Residential",
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.81,
+              11.76
+            ],
+            [
+              77.812,
+              11.76
+            ],
+            [
+              77.812,
+              11.762
+            ],
+            [
+              77.81,
+              11.762
+            ],
+            [
+              77.81,
+              11.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLDG_TEST_002",
+        "structure": "Residential",
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.825,
+              11.76
+            ],
+            [
+              77.827,
+              11.76
+            ],
+            [
+              77.827,
+              11.762
+            ],
+            [
+              77.825,
+              11.762
+            ],
+            [
+              77.825,
+              11.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLDG_TEST_003",
+        "structure": "Residential",
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.84,
+              11.76
+            ],
+            [
+              77.842,
+              11.76
+            ],
+            [
+              77.842,
+              11.762
+            ],
+            [
+              77.84,
+              11.762
+            ],
+            [
+              77.84,
+              11.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLDG_TEST_004",
+        "structure": "Residential",
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.855,
+              11.76
+            ],
+            [
+              77.857,
+              11.76
+            ],
+            [
+              77.857,
+              11.762
+            ],
+            [
+              77.855,
+              11.762
+            ],
+            [
+              77.855,
+              11.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLDG_TEST_005",
+        "structure": "Residential",
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.87,
+              11.76
+            ],
+            [
+              77.872,
+              11.76
+            ],
+            [
+              77.872,
+              11.762
+            ],
+            [
+              77.87,
+              11.762
+            ],
+            [
+              77.87,
+              11.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLDG_TEST_006",
+        "structure": "Residential",
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.81,
+              11.745
+            ],
+            [
+              77.812,
+              11.745
+            ],
+            [
+              77.812,
+              11.747
+            ],
+            [
+              77.81,
+              11.747
+            ],
+            [
+              77.81,
+              11.745
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLDG_TEST_007",
+        "structure": "Residential",
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.825,
+              11.745
+            ],
+            [
+              77.827,
+              11.745
+            ],
+            [
+              77.827,
+              11.747
+            ],
+            [
+              77.825,
+              11.747
+            ],
+            [
+              77.825,
+              11.745
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLDG_TEST_008",
+        "structure": "Residential",
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.84,
+              11.745
+            ],
+            [
+              77.842,
+              11.745
+            ],
+            [
+              77.842,
+              11.747
+            ],
+            [
+              77.84,
+              11.747
+            ],
+            [
+              77.84,
+              11.745
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLDG_TEST_009",
+        "structure": "Residential",
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.855,
+              11.745
+            ],
+            [
+              77.857,
+              11.745
+            ],
+            [
+              77.857,
+              11.747
+            ],
+            [
+              77.855,
+              11.747
+            ],
+            [
+              77.855,
+              11.745
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLDG_TEST_010",
+        "structure": "Residential",
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.87,
+              11.745
+            ],
+            [
+              77.872,
+              11.745
+            ],
+            [
+              77.872,
+              11.747
+            ],
+            [
+              77.87,
+              11.747
+            ],
+            [
+              77.87,
+              11.745
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLDG_TEST_011",
+        "structure": "Residential",
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.81,
+              11.73
+            ],
+            [
+              77.812,
+              11.73
+            ],
+            [
+              77.812,
+              11.732000000000001
+            ],
+            [
+              77.81,
+              11.732000000000001
+            ],
+            [
+              77.81,
+              11.73
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLDG_TEST_012",
+        "structure": "Residential",
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.825,
+              11.73
+            ],
+            [
+              77.827,
+              11.73
+            ],
+            [
+              77.827,
+              11.732000000000001
+            ],
+            [
+              77.825,
+              11.732000000000001
+            ],
+            [
+              77.825,
+              11.73
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLDG_TEST_013",
+        "structure": "Residential",
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.84,
+              11.73
+            ],
+            [
+              77.842,
+              11.73
+            ],
+            [
+              77.842,
+              11.732000000000001
+            ],
+            [
+              77.84,
+              11.732000000000001
+            ],
+            [
+              77.84,
+              11.73
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLDG_TEST_014",
+        "structure": "Residential",
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.855,
+              11.73
+            ],
+            [
+              77.857,
+              11.73
+            ],
+            [
+              77.857,
+              11.732000000000001
+            ],
+            [
+              77.855,
+              11.732000000000001
+            ],
+            [
+              77.855,
+              11.73
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLDG_TEST_015",
+        "structure": "Residential",
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.87,
+              11.73
+            ],
+            [
+              77.872,
+              11.73
+            ],
+            [
+              77.872,
+              11.732000000000001
+            ],
+            [
+              77.87,
+              11.732000000000001
+            ],
+            [
+              77.87,
+              11.73
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

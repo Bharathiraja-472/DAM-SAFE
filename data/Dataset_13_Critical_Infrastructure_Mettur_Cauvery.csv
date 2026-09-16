@@ -1,0 +1,19 @@
+﻿# DATASET 13 - CRITICAL INFRASTRUCTURE - METTUR / CAUVERY
+# This is a multi-layer spatial topic, not one single tabular source.
+# Sources are prioritized toward Indian government/state authorities.
+# No fabricated facility coordinates, capacities, contacts, or shelter lists are included.
+# Actual GIS extraction must preserve source geometry and source dates.
+
+Dataset,Infrastructure_Type,Record_Type,Preferred_Source,Data_Product,AOI,Temporal_Scope,Purpose,Source_or_Reference
+Dataset 13,Critical Infrastructure,Hospitals / health facilities,National Health Facility Registry (NHFR) / MoHFW,Facility registry / GIS-capable records,Tamil Nadu; filter to Mettur-Cauvery AOI,Current registry,Hospital/health-facility locations for flood exposure and emergency response,https://nhfr.mohfw.gov.in/
+Dataset 13,Critical Infrastructure,Hospitals / health facilities,National Health Authority / ABDM,Health Facility Registry,Tamil Nadu; filter to AOI,Current registry,Supplementary official health-facility inventory; preserve facility identifiers and coordinates,https://facility.abdm.gov.in/
+Dataset 13,Critical Infrastructure,Schools,"UDISE+ / Department of School Education & Literacy, Ministry of Education",School GIS / school directory,Tamil Nadu; filter to AOI,Latest available academic year,School locations and attributes for vulnerable population and evacuation planning,https://udiseplus.gov.in/
+Dataset 13,Critical Infrastructure,Police stations,Bhuvan / Government GIS layers + official Tamil Nadu Police,Police facility locations,Mettur-Cauvery AOI,Current,Emergency response infrastructure; verify against current state police directory,https://eservices.tnpolice.gov.in/
+Dataset 13,Critical Infrastructure,Fire stations,Tamil Nadu Fire and Rescue Services,Fire station locations,Mettur-Cauvery AOI,Current,Emergency response and rescue coverage,https://www.tnfrs.tn.gov.in/
+Dataset 13,Critical Infrastructure,Bridges / transport crossings,ISRO/NRSC Bhuvan Infrastructure + road network,Road & Rail / transport infrastructure,Mettur-Cauvery AOI,Current Bhuvan layer,Identify bridges/crossings vulnerable to inundation and route disruption,https://bhuvan-app1.nrsc.gov.in/bhuvan2d/bhuvan/bhuvan2d.php
+Dataset 13,Critical Infrastructure,Electricity / substations,Tamil Nadu Generation and Distribution Corporation (TANGEDCO),Substation / power infrastructure records,Mettur-Cauvery AOI,Current,Power infrastructure exposure; obtain official spatial locations where publicly available,https://www.tangedco.org/
+Dataset 13,Critical Infrastructure,Shelters / evacuation centres,Tamil Nadu State Disaster Management Authority (TNSDMA),Relief / shelter / emergency facility information,Mettur-Cauvery AOI,Current,Evacuation destination layer; use official district/SDMA records where available,https://www.tnsdma.tn.gov.in/
+Dataset 13,Critical Infrastructure,Administrative emergency facilities,Salem District Administration / Tamil Nadu Government,District emergency resources,Mettur-Cauvery AOI,Current,Cross-check facilities serving Mettur and downstream areas,https://salem.nic.in/
+Dataset 13,Critical Infrastructure,Project master schema,DAM-SAFE,GeoPackage / GeoJSON + attributes,Mettur-Cauvery AOI,Current verified source date,"Standardize facility_type, name, latitude, longitude, authority, capacity, contact, source_date and geometry",Project processing pipeline
+Dataset 13,Critical Infrastructure,Flood exposure output,DAM-SAFE,Point/polygon + flood depth/velocity,Mettur-Cauvery floodplain,After Delft3D simulation,Calculate which facilities are inundated or isolated and rank emergency importance,Project processing pipeline
+Dataset 13,Critical Infrastructure,Evacuation output,DAM-SAFE,Network analysis layer,Mettur-Cauvery floodplain,After road + flood layers,Identify safe/unsafe routes and nearest viable shelters/health facilities,"Datasets 11, 12, 14 + model outputs"

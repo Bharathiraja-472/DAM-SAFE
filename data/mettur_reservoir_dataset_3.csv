@@ -1,0 +1,5 @@
+﻿date,reservoir,river,full_depth_ft,full_capacity_Mcft,current_level_ft,current_storage_Mcft,current_inflow_cusecs,current_outflow_cusecs,last_year_level_ft,last_year_storage_Mcft,source,source_url
+2026-07-01,Mettur,Cauvery,120,93470,79.12,41085,1397,1003,113.81,83941,Tamil Nadu Government Agrisnet - Storage and Flow Data on Major Reservoirs,https://www.tnagrisnet.tn.gov.in/ARS/acrs_apc_dashboard/reservoirs/
+2026-07-03,Mettur,Cauvery,120,93470,42.7,13523,49,500,32.91,8732,Tamil Nadu Government Agrisnet - Storage and Flow Data on Major Reservoirs,https://www.tnagrisnet.tn.gov.in/ARS/acrs_apc_dashboard/reservoirs/
+2026-07-04,Mettur,Cauvery,120,93470,79.12,41085,1397,1003,113.81,83941,Tamil Nadu Government Agrisnet - Storage and Flow Data on Major Reservoirs,https://www.tnagrisnet.tn.gov.in/ARS/acrs_apc_dashboard/reservoirs/
+2026-07-06,Mettur,Cauvery,120,93470,77.71,39717,98,3003,119.91,93327,Tamil Nadu Government Agrisnet - Storage and Flow Data on Major Reservoirs,https://www.tnagrisnet.tn.gov.in/ARS/acrs_apc_dashboard/reservoirs/

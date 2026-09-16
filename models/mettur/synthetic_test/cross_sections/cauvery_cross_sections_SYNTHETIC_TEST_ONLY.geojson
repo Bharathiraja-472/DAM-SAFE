@@ -1,0 +1,121 @@
+{
+  "type": "FeatureCollection",
+  "meta": {
+    "data_status": "SYNTHETIC_TEST_ONLY",
+    "scientific_use": false,
+    "source_type": "GENERATED_FOR_SOFTWARE_TESTING",
+    "warning": "NOT A SCIENTIFIC FLOOD SIMULATION OR REAL OBSERVATION"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "section_id": "XS_TEST_01",
+        "chainage_km": 0,
+        "invert_elevation_m": 75.0,
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.7966,
+            11.803600000000001
+          ],
+          [
+            77.80659999999999,
+            11.7996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "section_id": "XS_TEST_02",
+        "chainage_km": 10,
+        "invert_elevation_m": 72.0,
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.8166,
+            11.703600000000002
+          ],
+          [
+            77.82659999999998,
+            11.6996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "section_id": "XS_TEST_03",
+        "chainage_km": 20,
+        "invert_elevation_m": 69.0,
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.8366,
+            11.603600000000002
+          ],
+          [
+            77.8466,
+            11.5996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "section_id": "XS_TEST_04",
+        "chainage_km": 30,
+        "invert_elevation_m": 66.0,
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.8566,
+            11.5036
+          ],
+          [
+            77.86659999999999,
+            11.4996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "section_id": "XS_TEST_05",
+        "chainage_km": 40,
+        "invert_elevation_m": 63.0,
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.8766,
+            11.4036
+          ],
+          [
+            77.88659999999999,
+            11.3996
+          ]
+        ]
+      }
+    }
+  ]
+}

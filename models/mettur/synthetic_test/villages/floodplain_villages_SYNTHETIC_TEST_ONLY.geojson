@@ -1,0 +1,116 @@
+{
+  "type": "FeatureCollection",
+  "meta": {
+    "data_status": "SYNTHETIC_TEST_ONLY",
+    "scientific_use": false,
+    "source_type": "GENERATED_FOR_SOFTWARE_TESTING",
+    "warning": "NOT A SCIENTIFIC FLOOD SIMULATION OR REAL OBSERVATION"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "village_name": "Mettur Downstream Settlement (TEST)",
+        "population_2011": 12500,
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.80000000000001,
+              11.78
+            ],
+            [
+              77.81,
+              11.78
+            ],
+            [
+              77.81,
+              11.790000000000001
+            ],
+            [
+              77.80000000000001,
+              11.790000000000001
+            ],
+            [
+              77.80000000000001,
+              11.78
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "village_name": "Bhavani Confluence Village (TEST)",
+        "population_2011": 8400,
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.83,
+              11.709999999999999
+            ],
+            [
+              77.83999999999999,
+              11.709999999999999
+            ],
+            [
+              77.83999999999999,
+              11.72
+            ],
+            [
+              77.83,
+              11.72
+            ],
+            [
+              77.83,
+              11.709999999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "village_name": "Erode Floodplain Settlement (TEST)",
+        "population_2011": 24000,
+        "data_status": "SYNTHETIC_TEST_ONLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.87,
+              11.639999999999999
+            ],
+            [
+              77.88,
+              11.639999999999999
+            ],
+            [
+              77.88,
+              11.65
+            ],
+            [
+              77.87,
+              11.65
+            ],
+            [
+              77.87,
+              11.639999999999999
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

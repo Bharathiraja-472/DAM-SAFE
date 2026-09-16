@@ -1,0 +1,24 @@
+﻿# DATASET 7 - SENTINEL-1 SAR FOR METTUR / CAUVERY FLOOD OBSERVATION
+# IMPORTANT: Sentinel-1 is an image dataset, not a normal tabular time series.
+# This inventory contains verified source/product specifications and the acquisition/processing plan.
+# No fabricated Sentinel-1 scene IDs, acquisition dates, backscatter values, or flood areas are included.
+# Actual scenes must be selected from the official catalogue for the final Dataset 4 AOI and documented flood events.
+
+Dataset,Topic,Record_Type,Source_or_Product,Format_or_Product_Type,Coverage_or_AOI,Temporal_Scope,Purpose_or_Requirement,Source_or_Reference
+Dataset 7,Sentinel-1 SAR,Primary source,Copernicus Data Space Ecosystem,Sentinel-1 GRD,World,2014-10-03 to present,C-band SAR; all-weather/day-night; suitable for flood extent mapping,https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-1
+Dataset 7,Sentinel-1 SAR,Recommended product,Sentinel-1 GRD IW,GRD,Mettur/Cauvery AOI,2014-10-03 to present,Use IW mode; retain VV and VH where available; GRD is the main flood-mapping input,https://documentation.dataspace.copernicus.eu/Data/Sentinel1.html
+Dataset 7,Sentinel-1 SAR,Alternative catalog/search source,NASA ASF DAAC,Sentinel-1 GRD,Mettur/Cauvery AOI,2014-10-03 to present,"ASF Search API supports Sentinel-1, AOI, date, processing-level and polarization filters",https://docs.asf.alaska.edu/api/keywords/
+Dataset 7,Sentinel-1 SAR,AOI center,Mettur Dam,Point,"77.8067 E, 11.8031 N",Project AOI,Approximate center from the official Mettur dam coordinates already used in Dataset 2,Project Dataset 2
+Dataset 7,Sentinel-1 SAR,AOI,Mettur-to-Cauvery downstream study area,Polygon/GeoPackage,To be generated from Dataset 4 + floodplain extent,Project AOI,Final Sentinel-1 search should use the actual Dataset 4 study-area polygon rather than a guessed rectangle,Project Dataset 4
+Dataset 7,Sentinel-1 SAR,Polarization,VV,SAR backscatter,Required,All selected scenes,Primary channel for operational flood-water detection in many land-cover conditions,https://documentation.dataspace.copernicus.eu/Data/Sentinel1.html
+Dataset 7,Sentinel-1 SAR,Polarization,VH,SAR backscatter,Recommended,All selected dual-polarization scenes,Useful complementary channel for separating water from vegetation/rough surfaces,https://documentation.dataspace.copernicus.eu/Data/Sentinel1.html
+Dataset 7,Sentinel-1 SAR,Pre-processing,Calibration,Sigma0/Gamma0,Required,Every scene,Radiometric calibration before comparison/classification,https://documentation.dataspace.copernicus.eu/Data/Sentinel1.html
+Dataset 7,Sentinel-1 SAR,Pre-processing,Speckle handling,SAR image processing,Required/controlled,Every scene,Use a documented filter only where needed; do not destroy flood boundaries,https://documentation.dataspace.copernicus.eu/Data/Sentinel1.html
+Dataset 7,Sentinel-1 SAR,Pre-processing,Terrain correction / geocoding,RTC/orthorectified GeoTIFF,Required,Every analysis scene,Use DEM-assisted terrain correction so flood pixels align with the project DEM,https://documentation.dataspace.copernicus.eu/Data/Sentinel1.html
+Dataset 7,Sentinel-1 SAR,Flood product,Pre-event backscatter,GeoTIFF,To be generated from selected archive scenes,Before a documented flood event,Baseline reference for change detection,Copernicus Data Space
+Dataset 7,Sentinel-1 SAR,Flood product,Post-event backscatter,GeoTIFF,To be generated from selected archive scenes,During/after a documented flood event,Flood observation/validation layer,Copernicus Data Space
+Dataset 7,Sentinel-1 SAR,Flood product,Change-detection flood mask,GeoTIFF/GeoPackage/GeoJSON,To be generated,For each validated event pair,Observed inundation layer used to validate Delft3D-FM flood extent,Project processing pipeline
+Dataset 7,Sentinel-1 SAR,Validation attribute,Acquisition date/time,ISO-8601 timestamp,Preserve from product metadata,Every scene,"Required to align satellite observations with rainfall, river level and discharge",Copernicus Data Space
+Dataset 7,Sentinel-1 SAR,Validation attribute,Orbit / relative orbit,Metadata,Preserve from product metadata,Every scene,Keep acquisition geometry consistent when making before/after comparisons,Copernicus Data Space
+Dataset 7,Sentinel-1 SAR,Validation attribute,Incidence angle,Metadata,Preserve from product metadata,Every scene,Useful quality/geometry variable for SAR comparisons,Copernicus Data Space
+Dataset 7,Sentinel-1 SAR,Output CRS,Project CRS,GeoTIFF/GeoPackage,Use the same CRS as DEM/flood model,All derived products,"Avoid spatial offsets between SAR flood mask, DEM and Delft3D outputs",Project Dataset 1

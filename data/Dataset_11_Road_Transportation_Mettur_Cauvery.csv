@@ -1,0 +1,18 @@
+﻿# DATASET 11 - ROAD / TRANSPORTATION NETWORK - METTUR / CAUVERY
+# Primary authoritative source: ISRO/NRSC Bhuvan base GIS / Infrastructure (Road & Rail) layers.
+# OpenStreetMap is listed as a supplementary detailed network, not as a replacement for authoritative Indian datasets.
+# No fabricated road geometries, road lengths, or road attributes are included.
+# Actual spatial road data should be downloaded/extracted as SHP/GeoJSON/GeoPackage and clipped to the final Dataset 4 AOI.
+
+Dataset,Topic,Record_Type,Source_or_Layer,Format_or_Type,AOI,Temporal_Scope,Purpose,Source_or_Reference
+Dataset 11,Road / Transportation Network,Primary authoritative Indian GIS source,ISRO/NRSC Bhuvan,Road base layer / Infrastructure (Road & Rail),Mettur-Cauvery study area,Current Bhuvan layer,Bhuvan explicitly provides Road as a base GIS layer and Infrastructure (Road & Rail) in its viewer,https://bhuvan-app1.nrsc.gov.in/bhuvan2d/bhuvan/bhuvan2d.php
+Dataset 11,Road / Transportation Network,Bhuvan transport layer,ISRO/NRSC Bhuvan,Transport Network,Mettur-Cauvery study area,Current Bhuvan layer,Useful for initial road-network visualization and extraction where download/service access is available,https://bhuvan-app1.nrsc.gov.in/jsa/
+Dataset 11,Road / Transportation Network,Supporting detailed network,OpenStreetMap,Road centerlines / attributes,Mettur-Cauvery study area,Current OSM data,Use as a detailed supplementary road network; retain OSM attribution and source date,https://www.openstreetmap.org/
+Dataset 11,Road / Transportation Network,Project geometry,DAM-SAFE,GeoPackage / GeoJSON / SHP,Mettur-Cauvery study boundary,After Dataset 4 is finalized,"Clip roads to the actual study boundary, preserving road geometry and attributes",Project Dataset 4
+Dataset 11,Road attributes,Road class,Source-dependent,Attribute,Study area,Preserve source values,Motorway/highway/primary/secondary/local or native source classification; do not invent classes,Bhuvan / OpenStreetMap
+Dataset 11,Road attributes,Road name,Source-dependent,Attribute,Study area,Preserve source values,Useful for evacuation routing and reporting,Bhuvan / OpenStreetMap
+Dataset 11,Road attributes,Surface/type,Source-dependent,Attribute,Study area,Preserve source values,Useful for accessibility/risk analysis where available,Bhuvan / OpenStreetMap
+Dataset 11,Road attributes,Bridge / crossing,Source-dependent,Point/line attribute,Cauvery and tributary crossings,Preserve source values,Critical for flood-induced transport disruption and evacuation planning,Bhuvan / OpenStreetMap
+Dataset 11,Project output,Flood-affected road length,DAM-SAFE,Line + statistics,Mettur-Cauvery floodplain,After Delft3D simulation,Intersect road network with simulated flood extent and calculate affected length by flood-depth class,Project processing pipeline
+Dataset 11,Project output,Road closure / accessibility risk,DAM-SAFE,Line + risk class,Mettur-Cauvery floodplain,After Delft3D simulation,Combine flood depth/velocity with road network for HADR routing,Project processing pipeline
+Dataset 11,Spatial alignment,CRS,DAM-SAFE,Same CRS as DEM/model,Study area,All derived layers,"Ensure road geometry aligns with DEM, river, buildings and flood outputs",Project Dataset 1

@@ -1,0 +1,42 @@
+# Mettur Dam Baseline Hydraulic Flow Model Configuration
+# Project: DAM-SAFE Prototype
+# Purpose: Baseline Cauvery River flow model framework before breach simulation
+
+[General]
+Program                 = D-Flow FM
+Version                 = 1.2.184
+ModelType               = 2D
+MDUFormatVersion        = 1.00
+
+[geometry]
+# Computational mesh reference
+NetFile                 = ../geometry/mettur_cauvery_net.nc
+BathymetryFile          = ../bathymetry/SRTM_Mettur_30m_LandSurface.tif
+BedLevType              = 3
+WaterLevIni             = 0.0
+
+[numerics]
+CFLMax                  = 0.70
+AdvectionType           = 33
+
+[physics]
+UnifFrictCoef           = 0.025
+UnifFrictType           = 1
+Gravity                 = 9.81
+WaterDensity            = 1000.0
+
+[time]
+RefDate                 = 20260701
+TStart                  = 0.0
+TEnd                    = 86400.0
+DtUser                  = 60.0
+DtMax                   = 30.0
+
+[external_forcing]
+ExtForceFile            = ../boundary/mettur_boundary.ext
+
+[output]
+OutputDir               = ../output
+MapInterval             = 3600.0
+HisInterval             = 600.0
+MapFormat               = 4

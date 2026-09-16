@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "meta": {
+    "data_status": "DUMMY_FOR_PROTOTYPE",
+    "scientific_use": false,
+    "source_type": "DUMMY_FOR_PROTOTYPE",
+    "warning": "PROTOTYPE ASSUMPTION ONLY \u2014 NOT MEASURED OBSERVATION"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cauvery Main Stem River Centerline (PROTOTYPE ASSUMPTION)",
+        "reach": "Mettur Dam to Erode Reach",
+        "data_status": "DUMMY_FOR_PROTOTYPE",
+        "source_type": "DUMMY_FOR_PROTOTYPE"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.8016,
+            11.8016
+          ],
+          [
+            77.795,
+            11.75
+          ],
+          [
+            77.785,
+            11.7
+          ],
+          [
+            77.775,
+            11.65
+          ],
+          [
+            77.765,
+            11.6
+          ],
+          [
+            77.755,
+            11.55
+          ],
+          [
+            77.745,
+            11.5
+          ],
+          [
+            77.735,
+            11.45
+          ],
+          [
+            77.725,
+            11.4
+          ],
+          [
+            77.717,
+            11.34
+          ]
+        ]
+      }
+    }
+  ]
+}

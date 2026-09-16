@@ -1,0 +1,604 @@
+{
+  "run_id": "proto_1788846705_2ce17f",
+  "timestamp": "2026-09-08T11:22:27Z",
+  "disclaimer": "HADR DECISION SUPPORT PROTOTYPE \u2014 NOT AN OPERATIONAL EMERGENCY WARNING SYSTEM",
+  "data_provenance": {
+    "dem_source": "SRTM 30m DEM (UTM Zone 44N)",
+    "population_exposure": "Population exposure estimate based on Census 2011",
+    "shelter_inventory": "DUMMY DATA \u2014 PROTOTYPE ONLY",
+    "hydrologic_inputs": "Step 8 Mettur Dam-Break Prototype Run Outputs"
+  },
+  "summary_statistics": {
+    "total_affected_villages": 6,
+    "total_population_exposed": 149600,
+    "critical_p1_villages": 1,
+    "high_p2_villages": 3,
+    "severely_affected_roads": 1,
+    "operational_shelters_capacity": 4800
+  },
+  "village_impact_results": [
+    {
+      "run_id": "proto_1788846705_2ce17f",
+      "village_id": "VILL_001",
+      "village_name": "Mettur Town Base",
+      "district": "Salem",
+      "taluk": "Mettur",
+      "population_exposure": 52200,
+      "pop_source_label": "Population exposure estimate based on Census 2011",
+      "max_water_depth_m": 2.85,
+      "max_velocity_m_s": 1.45,
+      "min_arrival_time_hrs": 0.2,
+      "severity_level": "EXTREME",
+      "priority_score": 80.75,
+      "priority_rank": "P1 CRITICAL",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.79,
+              11.785
+            ],
+            [
+              77.81,
+              11.785
+            ],
+            [
+              77.81,
+              11.805
+            ],
+            [
+              77.79,
+              11.805
+            ],
+            [
+              77.79,
+              11.785
+            ]
+          ]
+        ]
+      },
+      "data_status": "MIXED_DATA_PROTOTYPE",
+      "scientific_use": false
+    },
+    {
+      "run_id": "proto_1788846705_2ce17f",
+      "village_id": "VILL_002",
+      "village_name": "Navavoor / Ellis Colony",
+      "district": "Salem",
+      "taluk": "Mettur",
+      "population_exposure": 14300,
+      "pop_source_label": "Population exposure estimate based on Census 2011",
+      "max_water_depth_m": 2.3,
+      "max_velocity_m_s": 1.2,
+      "min_arrival_time_hrs": 0.5,
+      "severity_level": "EXTREME",
+      "priority_score": 72.0,
+      "priority_rank": "P2 HIGH",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.785,
+              11.76
+            ],
+            [
+              77.805,
+              11.76
+            ],
+            [
+              77.805,
+              11.78
+            ],
+            [
+              77.785,
+              11.78
+            ],
+            [
+              77.785,
+              11.76
+            ]
+          ]
+        ]
+      },
+      "data_status": "MIXED_DATA_PROTOTYPE",
+      "scientific_use": false
+    },
+    {
+      "run_id": "proto_1788846705_2ce17f",
+      "village_id": "VILL_003",
+      "village_name": "Kolathur South",
+      "district": "Salem",
+      "taluk": "Mettur",
+      "population_exposure": 18900,
+      "pop_source_label": "Population exposure estimate based on Census 2011",
+      "max_water_depth_m": 1.75,
+      "max_velocity_m_s": 0.95,
+      "min_arrival_time_hrs": 1.0,
+      "severity_level": "HIGH",
+      "priority_score": 61.58,
+      "priority_rank": "P2 HIGH",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.78,
+              11.72
+            ],
+            [
+              77.8,
+              11.72
+            ],
+            [
+              77.8,
+              11.74
+            ],
+            [
+              77.78,
+              11.74
+            ],
+            [
+              77.78,
+              11.72
+            ]
+          ]
+        ]
+      },
+      "data_status": "MIXED_DATA_PROTOTYPE",
+      "scientific_use": false
+    },
+    {
+      "run_id": "proto_1788846705_2ce17f",
+      "village_id": "VILL_004",
+      "village_name": "Palamalai Foot",
+      "district": "Salem",
+      "taluk": "Mettur",
+      "population_exposure": 8600,
+      "pop_source_label": "Population exposure estimate based on Census 2011",
+      "max_water_depth_m": 1.3,
+      "max_velocity_m_s": 0.75,
+      "min_arrival_time_hrs": 1.5,
+      "severity_level": "HIGH",
+      "priority_score": 52.33,
+      "priority_rank": "P2 HIGH",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.775,
+              11.68
+            ],
+            [
+              77.795,
+              11.68
+            ],
+            [
+              77.795,
+              11.7
+            ],
+            [
+              77.775,
+              11.7
+            ],
+            [
+              77.775,
+              11.68
+            ]
+          ]
+        ]
+      },
+      "data_status": "MIXED_DATA_PROTOTYPE",
+      "scientific_use": false
+    },
+    {
+      "run_id": "proto_1788846705_2ce17f",
+      "village_id": "VILL_005",
+      "village_name": "Mecheri Downstream West",
+      "district": "Salem",
+      "taluk": "Mettur",
+      "population_exposure": 24100,
+      "pop_source_label": "Population exposure estimate based on Census 2011",
+      "max_water_depth_m": 0.95,
+      "max_velocity_m_s": 0.55,
+      "min_arrival_time_hrs": 2.0,
+      "severity_level": "MODERATE",
+      "priority_score": 43.92,
+      "priority_rank": "P3 MODERATE",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.77,
+              11.64
+            ],
+            [
+              77.79,
+              11.64
+            ],
+            [
+              77.79,
+              11.66
+            ],
+            [
+              77.77,
+              11.66
+            ],
+            [
+              77.77,
+              11.64
+            ]
+          ]
+        ]
+      },
+      "data_status": "MIXED_DATA_PROTOTYPE",
+      "scientific_use": false
+    },
+    {
+      "run_id": "proto_1788846705_2ce17f",
+      "village_id": "VILL_006",
+      "village_name": "Bhavani North Approach",
+      "district": "Erode",
+      "taluk": "Bhavani",
+      "population_exposure": 31500,
+      "pop_source_label": "Population exposure estimate based on Census 2011",
+      "max_water_depth_m": 0.65,
+      "max_velocity_m_s": 0.4,
+      "min_arrival_time_hrs": 2.5,
+      "severity_level": "MODERATE",
+      "priority_score": 36.25,
+      "priority_rank": "P3 MODERATE",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.765,
+              11.6
+            ],
+            [
+              77.785,
+              11.6
+            ],
+            [
+              77.785,
+              11.62
+            ],
+            [
+              77.765,
+              11.62
+            ],
+            [
+              77.765,
+              11.6
+            ]
+          ]
+        ]
+      },
+      "data_status": "MIXED_DATA_PROTOTYPE",
+      "scientific_use": false
+    }
+  ],
+  "evacuation_zones": [
+    {
+      "zone_code": "ZONE_1",
+      "zone_name": "Zone 1 \u2014 Immediate Evacuation Zone",
+      "priority_level": "P1 CRITICAL",
+      "area_sq_km": 14.5,
+      "est_population": 66500,
+      "pop_source_label": "Population exposure estimate based on Census 2011",
+      "min_arrival_hrs": 0.2,
+      "max_depth_m": 2.85,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.77,
+              11.75
+            ],
+            [
+              77.82,
+              11.75
+            ],
+            [
+              77.82,
+              11.81
+            ],
+            [
+              77.77,
+              11.81
+            ],
+            [
+              77.77,
+              11.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "zone_code": "ZONE_2",
+      "zone_name": "Zone 2 \u2014 High Priority Evacuation Zone",
+      "priority_level": "P2 HIGH",
+      "area_sq_km": 28.2,
+      "est_population": 27500,
+      "pop_source_label": "Population exposure estimate based on Census 2011",
+      "min_arrival_hrs": 1.0,
+      "max_depth_m": 1.75,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.76,
+              11.68
+            ],
+            [
+              77.81,
+              11.68
+            ],
+            [
+              77.81,
+              11.75
+            ],
+            [
+              77.76,
+              11.75
+            ],
+            [
+              77.76,
+              11.68
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "zone_code": "ZONE_3",
+      "zone_name": "Zone 3 \u2014 Precautionary Advisory Zone",
+      "priority_level": "P3 MODERATE",
+      "area_sq_km": 42.0,
+      "est_population": 24100,
+      "pop_source_label": "Population exposure estimate based on Census 2011",
+      "min_arrival_hrs": 2.0,
+      "max_depth_m": 0.95,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.75,
+              11.63
+            ],
+            [
+              77.8,
+              11.63
+            ],
+            [
+              77.8,
+              11.68
+            ],
+            [
+              77.75,
+              11.68
+            ],
+            [
+              77.75,
+              11.63
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "zone_code": "ZONE_4",
+      "zone_name": "Zone 4 \u2014 Monitor & Alert Zone",
+      "priority_level": "P4 LOW",
+      "area_sq_km": 56.5,
+      "est_population": 31500,
+      "pop_source_label": "Population exposure estimate based on Census 2011",
+      "min_arrival_hrs": 2.5,
+      "max_depth_m": 0.65,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.74,
+              11.58
+            ],
+            [
+              77.79,
+              11.58
+            ],
+            [
+              77.79,
+              11.63
+            ],
+            [
+              77.74,
+              11.63
+            ],
+            [
+              77.74,
+              11.58
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "route_analysis": [
+    {
+      "run_id": "proto_1788846705_2ce17f",
+      "road_name": "SH-86 Mettur - Bhavani State Highway",
+      "road_type": "State Highway",
+      "status": "SEVERELY AFFECTED",
+      "max_water_depth_m": 2.1,
+      "passable_status": "UNPASSABLE",
+      "alternative_route_info": "Divert via SH-86B West Bypass",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.78,
+            11.8
+          ],
+          [
+            77.785,
+            11.75
+          ],
+          [
+            77.775,
+            11.7
+          ]
+        ]
+      },
+      "data_status": "MIXED_DATA_PROTOTYPE"
+    },
+    {
+      "run_id": "proto_1788846705_2ce17f",
+      "road_name": "Mettur Dam Bypass Link Road",
+      "road_type": "Major District Road",
+      "status": "AFFECTED",
+      "max_water_depth_m": 1.4,
+      "passable_status": "EMERGENCY ONLY",
+      "alternative_route_info": "Divert via Salem-Mettur High Road",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.78,
+            11.8
+          ],
+          [
+            77.785,
+            11.75
+          ],
+          [
+            77.775,
+            11.7
+          ]
+        ]
+      },
+      "data_status": "MIXED_DATA_PROTOTYPE"
+    },
+    {
+      "run_id": "proto_1788846705_2ce17f",
+      "road_name": "Kolathur - Mecheri Feeder Road",
+      "road_type": "District Road",
+      "status": "AT RISK",
+      "max_water_depth_m": 0.45,
+      "passable_status": "CAUTION PASSABLE",
+      "alternative_route_info": "Monitor rising waters at km 12",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.78,
+            11.8
+          ],
+          [
+            77.785,
+            11.75
+          ],
+          [
+            77.775,
+            11.7
+          ]
+        ]
+      },
+      "data_status": "MIXED_DATA_PROTOTYPE"
+    },
+    {
+      "run_id": "proto_1788846705_2ce17f",
+      "road_name": "Salem - Mettur National Highway Feeder (NH-844)",
+      "road_type": "National Highway Feeder",
+      "status": "OPEN",
+      "max_water_depth_m": 0.0,
+      "passable_status": "OPEN",
+      "alternative_route_info": "Primary Evacuation Corridor Northward",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.78,
+            11.8
+          ],
+          [
+            77.785,
+            11.75
+          ],
+          [
+            77.775,
+            11.7
+          ]
+        ]
+      },
+      "data_status": "MIXED_DATA_PROTOTYPE"
+    }
+  ],
+  "staging_shelters": [
+    {
+      "shelter_name": "Mettur Government Higher Secondary School Shelter",
+      "district": "Salem",
+      "taluk": "Mettur",
+      "capacity": 1500,
+      "current_occupancy": 320,
+      "contact_person": "Tahsildar Mettur",
+      "contact_phone": "+91-427-225001",
+      "status": "OPERATIONAL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.81,
+          11.798
+        ]
+      },
+      "data_status": "DUMMY_FOR_PROTOTYPE",
+      "ui_badge_label": "DUMMY DATA \u2014 PROTOTYPE ONLY"
+    },
+    {
+      "shelter_name": "Kolathur Community Relief Center",
+      "district": "Salem",
+      "taluk": "Mettur",
+      "capacity": 800,
+      "current_occupancy": 150,
+      "contact_person": "Block Development Officer",
+      "contact_phone": "+91-427-225002",
+      "status": "OPERATIONAL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.805,
+          11.735
+        ]
+      },
+      "data_status": "DUMMY_FOR_PROTOTYPE",
+      "ui_badge_label": "DUMMY DATA \u2014 PROTOTYPE ONLY"
+    },
+    {
+      "shelter_name": "Mecheri Disaster Staging Grounds",
+      "district": "Salem",
+      "taluk": "Mettur",
+      "capacity": 2500,
+      "current_occupancy": 0,
+      "contact_person": "TN Disaster Response Force",
+      "contact_phone": "+91-427-225003",
+      "status": "STANDBY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.795,
+          11.655
+        ]
+      },
+      "data_status": "DUMMY_FOR_PROTOTYPE",
+      "ui_badge_label": "DUMMY DATA \u2014 PROTOTYPE ONLY"
+    }
+  ]
+}

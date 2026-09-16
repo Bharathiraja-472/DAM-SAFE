@@ -1,0 +1,19 @@
+{
+  "filename": "mettur_prototype_net.nc",
+  "data_status": "DUMMY_FOR_PROTOTYPE",
+  "scientific_use": false,
+  "warning": "PROTOTYPE \u2014 COMBINES REAL DEM TERRAIN WITH PROTOTYPE DUMMY CHANNEL GEOMETRY \u2014 NOT SCIENTIFICALLY VALIDATED",
+  "grid_type": "Mettur Downstream Prototype Unstructured Mesh",
+  "crs": "EPSG:32644 (UTM Zone 44N)",
+  "node_count": 2450,
+  "face_count": 2304,
+  "terrain_source": "REAL SRTM 30m DEM (EPSG:32644)",
+  "channel_geometry_source": "DUMMY_FOR_PROTOTYPE (cauvery_centerline_DUMMY_FOR_PROTOTYPE.geojson)",
+  "bed_elevation_source": "DUMMY_FOR_PROTOTYPE (cauvery_bed_DUMMY_FOR_PROTOTYPE.csv)",
+  "bounds_utm": {
+    "easting_min_m": 610000.0,
+    "easting_max_m": 670000.0,
+    "northing_min_m": 1250000.0,
+    "northing_max_m": 1310000.0
+  }
+}

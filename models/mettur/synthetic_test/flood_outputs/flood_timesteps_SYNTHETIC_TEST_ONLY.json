@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "data_status": "SYNTHETIC_TEST_ONLY",
+    "scientific_use": false,
+    "source_type": "GENERATED_FOR_SOFTWARE_TESTING",
+    "warning": "NOT A SCIENTIFIC FLOOD SIMULATION OR REAL OBSERVATION"
+  },
+  "warning_banner": "SOFTWARE PIPELINE TEST \u2014 SYNTHETIC DATA \u2014 NOT A SCIENTIFIC FLOOD SIMULATION",
+  "timesteps": [
+    {
+      "timestep": 1,
+      "time_hours": 2,
+      "label": "T+2 Hours (SOFTWARE PIPELINE TEST)",
+      "water_spread": [
+        {
+          "step": 1,
+          "time_hours": 2,
+          "max_depth_m": 1.25,
+          "max_velocity_m_s": 0.7,
+          "data_status": "SYNTHETIC_TEST_ONLY",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  77.79,
+                  11.740000000000002
+                ],
+                [
+                  77.83,
+                  11.740000000000002
+                ],
+                [
+                  77.83,
+                  11.780000000000001
+                ],
+                [
+                  77.79,
+                  11.780000000000001
+                ],
+                [
+                  77.79,
+                  11.740000000000002
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "timestep": 2,
+      "time_hours": 4,
+      "label": "T+4 Hours (SOFTWARE PIPELINE TEST)",
+      "water_spread": [
+        {
+          "step": 2,
+          "time_hours": 4,
+          "max_depth_m": 2.0,
+          "max_velocity_m_s": 1.0,
+          "data_status": "SYNTHETIC_TEST_ONLY",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  77.8,
+                  11.700000000000001
+                ],
+                [
+                  77.83999999999999,
+                  11.700000000000001
+                ],
+                [
+                  77.83999999999999,
+                  11.74
+                ],
+                [
+                  77.8,
+                  11.74
+                ],
+                [
+                  77.8,
+                  11.700000000000001
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "timestep": 3,
+      "time_hours": 6,
+      "label": "T+6 Hours (SOFTWARE PIPELINE TEST)",
+      "water_spread": [
+        {
+          "step": 3,
+          "time_hours": 6,
+          "max_depth_m": 2.75,
+          "max_velocity_m_s": 1.3,
+          "data_status": "SYNTHETIC_TEST_ONLY",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  77.81,
+                  11.660000000000002
+                ],
+                [
+                  77.85,
+                  11.660000000000002
+                ],
+                [
+                  77.85,
+                  11.700000000000001
+                ],
+                [
+                  77.81,
+                  11.700000000000001
+                ],
+                [
+                  77.81,
+                  11.660000000000002
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "timestep": 4,
+      "time_hours": 8,
+      "label": "T+8 Hours (SOFTWARE PIPELINE TEST)",
+      "water_spread": [
+        {
+          "step": 4,
+          "time_hours": 8,
+          "max_depth_m": 3.5,
+          "max_velocity_m_s": 1.6,
+          "data_status": "SYNTHETIC_TEST_ONLY",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  77.82000000000001,
+                  11.620000000000001
+                ],
+                [
+                  77.86,
+                  11.620000000000001
+                ],
+                [
+                  77.86,
+                  11.66
+                ],
+                [
+                  77.82000000000001,
+                  11.66
+                ],
+                [
+                  77.82000000000001,
+                  11.620000000000001
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "timestep": 5,
+      "time_hours": 10,
+      "label": "T+10 Hours (SOFTWARE PIPELINE TEST)",
+      "water_spread": [
+        {
+          "step": 5,
+          "time_hours": 10,
+          "max_depth_m": 4.25,
+          "max_velocity_m_s": 1.9,
+          "data_status": "SYNTHETIC_TEST_ONLY",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  77.83,
+                  11.580000000000002
+                ],
+                [
+                  77.86999999999999,
+                  11.580000000000002
+                ],
+                [
+                  77.86999999999999,
+                  11.620000000000001
+                ],
+                [
+                  77.83,
+                  11.620000000000001
+                ],
+                [
+                  77.83,
+                  11.580000000000002
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "timestep": 6,
+      "time_hours": 12,
+      "label": "T+12 Hours (SOFTWARE PIPELINE TEST)",
+      "water_spread": [
+        {
+          "step": 6,
+          "time_hours": 12,
+          "max_depth_m": 5.0,
+          "max_velocity_m_s": 2.2,
+          "data_status": "SYNTHETIC_TEST_ONLY",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  77.84,
+                  11.540000000000001
+                ],
+                [
+                  77.88,
+                  11.540000000000001
+                ],
+                [
+                  77.88,
+                  11.58
+                ],
+                [
+                  77.84,
+                  11.58
+                ],
+                [
+                  77.84,
+                  11.540000000000001
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

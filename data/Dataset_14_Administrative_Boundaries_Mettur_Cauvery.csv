@@ -1,0 +1,19 @@
+﻿# DATASET 14 - ADMINISTRATIVE BOUNDARIES - METTUR / CAUVERY
+# Primary spatial source: ISRO/NRSC Bhuvan administrative boundary/base GIS layers.
+# Census 2011 Administrative Atlas is retained as the authoritative historical jurisdiction/location-code reference.
+# No fabricated boundary polygons, village coordinates, or administrative areas are included.
+# Actual polygons must be extracted/downloaded from the authoritative GIS source and preserved as GeoPackage/GeoJSON/SHP.
+
+Dataset,Topic,Record_Type,Source_or_Layer,Geometry_or_Product,AOI,Temporal_Scope,Purpose,Source_or_Reference
+Dataset 14,Administrative Boundaries,Primary GIS source,ISRO/NRSC Bhuvan,Administrative boundary layers,Mettur-Cauvery AOI,Current Bhuvan layer,Bhuvan base GIS includes administrative boundaries; use for district/taluk/village spatial filtering,https://bhuvan-app1.nrsc.gov.in/bhuvan2d/bhuvan/bhuvan2d.php
+Dataset 14,Administrative Boundaries,State boundary,ISRO/NRSC Bhuvan,Polygon,Tamil Nadu,Current layer,State-level reference boundary,https://bhuvan-app1.nrsc.gov.in/bhuvan2d/bhuvan/bhuvan2d.php
+Dataset 14,Administrative Boundaries,District boundary,ISRO/NRSC Bhuvan,Polygon,Mettur-Cauvery AOI,Current layer,Identify affected districts and calculate flood area by district,https://bhuvan-app1.nrsc.gov.in/thematic_dashboard/
+Dataset 14,Administrative Boundaries,Taluk / sub-district boundary,ISRO/NRSC Bhuvan + Census ORGI,Polygon,Mettur-Cauvery AOI,Current layer / Census 2011 reference,Identify affected taluks and support population joins,https://bhuvan-app1.nrsc.gov.in/thematic_dashboard/
+Dataset 14,Administrative Boundaries,Village boundary,ISRO/NRSC Bhuvan + Census ORGI,Polygon,Mettur-Cauvery AOI,Use latest authoritative geometry available; Census 2011 as reference,Critical for affected-village reporting and population exposure,https://bhuvan-app1.nrsc.gov.in/thematic_dashboard/
+Dataset 14,Administrative Boundaries,Census administrative reference,"Office of Registrar General & Census Commissioner, India",Administrative Atlas / PDF maps + location codes,Tamil Nadu,2011,Authoritative historical administrative structure and jurisdiction/location-code reference,https://www.censusindia.gov.in/nada/index.php/catalog/47
+Dataset 14,Administrative Boundaries,Bhuvan base GIS content,ISRO/NRSC,Administrative boundaries + settlement layers,India / Tamil Nadu,Bhuvan database,"NRSC documentation explicitly lists administrative boundaries, settlements and city/town boundaries as base GIS layers",https://bhuvan-app1.nrsc.gov.in/2dresources/documents/4_Bhuvan_Data_Content_And_Map_Standards.pdf
+Dataset 14,Project output,Flood-affected district,DAM-SAFE,Polygon + statistics,Mettur-Cauvery floodplain,After Delft3D,Intersect flood extent with district polygons,Project processing pipeline
+Dataset 14,Project output,Flood-affected taluk,DAM-SAFE,Polygon + statistics,Mettur-Cauvery floodplain,After Delft3D,Intersect flood extent with taluk polygons,Project processing pipeline
+Dataset 14,Project output,Flood-affected village,DAM-SAFE,Polygon + statistics,Mettur-Cauvery floodplain,After Delft3D,Intersect flood extent/depth with village polygons; join Dataset 12 population,Project processing pipeline
+Dataset 14,Project geometry,Required format,DAM-SAFE,GeoPackage preferred; GeoJSON/SHP accepted,Mettur-Cauvery AOI,Final extraction,"Preserve polygon geometry, unique administrative codes, names and source metadata",Project processing pipeline
+Dataset 14,Project rule,Boundary consistency,DAM-SAFE,Topology / CRS,All administrative layers,Before modelling,Use one consistent boundary dataset/version for all exposure statistics; document source date and CRS,Project processing pipeline

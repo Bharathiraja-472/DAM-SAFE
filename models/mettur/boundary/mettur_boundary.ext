@@ -1,0 +1,15 @@
+# D-Flow FM External Forcing Boundary File
+# File Format: D-Flow FM 1.2.184
+# Status: PENDING REAL HYDROGRAPH & GAUGE OBSERVATIONS
+
+QUANTITY = dischargebnd
+FILENAME = mettur_upstream_release.bc
+FILETYPE = 9
+METHOD   = 1
+OPERAND  = O
+
+QUANTITY = waterlevelbnd
+FILENAME = cauvery_downstream_stage.bc
+FILETYPE = 9
+METHOD   = 1
+OPERAND  = O
