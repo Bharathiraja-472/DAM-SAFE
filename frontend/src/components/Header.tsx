@@ -40,7 +40,7 @@ export const Header: React.FC<HeaderProps> = () => {
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
           <span style={{ fontSize: '1.2rem', fontWeight: 800, color: '#111111', letterSpacing: '-0.02em' }}>
-            Hydravaa
+            Dam-Safe
           </span>
           <span style={{
             fontSize: '0.68rem',
