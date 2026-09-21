@@ -41,7 +41,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, activeRunId }) =
       }}>
         <div style={{ maxWidth: '700px' }}>
           <h1 style={{ fontSize: '2rem', fontWeight: 800, color: '#111111', margin: '0 0 0.5rem', letterSpacing: '-0.02em' }}>
-            Hydravaa
+            Dam-Safe
           </h1>
           <p style={{ fontSize: '0.95rem', color: '#666666', margin: 0, lineHeight: 1.5 }}>
             Dam-Break Flood Simulation & Emergency Decision Support System. Simulate downstream wave propagation and generate emergency response plans.
